@@ -14,6 +14,7 @@ jobs:
             matrix:
                 php: [7.4, 7.2]
                 laravel: [6.18, 7.0]
+                dependency-version: [prefer-lowest, prefer-stable]
                 os: [ubuntu-latest]
                 include:
                     - laravel: 7.*
